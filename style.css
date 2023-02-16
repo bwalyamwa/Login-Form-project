@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.349)),url(_uhdfire219.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Form-box{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.6);
+}
+
+.Login h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 15%;
+}
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.checkbox{
+    width: 190px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.input-box input{
+    color: #fff;
+    outline: none;
+    background: transparent;
+    width: 90%;
+    border: none;
+}
+::placeholder{
+    color: #ccc; 
+}
+
+.login-btn{
+    margin: 20px auto 20px;
+    width: 70%;
+    display: block;
+    outline: none;
+    padding: 5px 0;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size:16px;
+    color: #fff;
+}
+.Login a{
+    color: #fff;
+    text-align: center;
+}
+
+.Login p{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+}
